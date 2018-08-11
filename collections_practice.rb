@@ -69,5 +69,12 @@ def sum_array(array)
   end 
   total
 end 
+
+def add_s(array)
+  array.collect do |string|
+    if index(string) == 1
+      string
+    else 
+      string << "s"
     
       
