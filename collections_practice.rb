@@ -77,7 +77,6 @@ def add_s(array)
       answer << added
     end 
   answer[1] = "feet"
-  end 
   answer
 end 
     
