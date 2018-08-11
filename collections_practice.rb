@@ -78,6 +78,7 @@ def add_s(array)
     end 
   answer[1] = "feet"
   end 
+  answer
 end 
     
       
