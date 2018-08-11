@@ -64,7 +64,8 @@ end
 def sum_array(array)
   total = 0
   array.each do |number|
-    number + total
+    total = number + total
+    
   end 
   total
 end 
