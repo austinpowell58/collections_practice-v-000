@@ -71,12 +71,12 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.collect do |string|
-    if  == 1
-      string
-    else 
-      string << "s"
+  answer = []
+  array.each do |string|
+      added = string << "s"
+      answer << added
     end 
+  answer[1] = "feet"
   end 
 end 
     
